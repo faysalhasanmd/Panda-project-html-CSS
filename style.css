@@ -1,5 +1,7 @@
 * {
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 /* shared style */
 .btn-primary {
@@ -236,3 +238,13 @@ a {
 .contact-us-input .btn-primary {
   border-radius: 0 12px 12px 0;
 }
+
+/* .sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+.div-sticky {
+  position: relative;
+} */
