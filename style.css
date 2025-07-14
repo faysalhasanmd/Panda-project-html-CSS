@@ -1,0 +1,238 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+/* shared style */
+.btn-primary {
+  width: 168px;
+  height: 52px;
+  padding: 14px 20px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  border-radius: 6px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(215, 38, 109) -0.006%,
+    rgb(162, 10, 68) 99.994%
+  );
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* nav section */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+.search-parent {
+  position: relative;
+}
+.search-parent input {
+  background-color: rgb(241, 241, 241);
+  border-radius: 66px;
+  width: 508px;
+  padding: 12px;
+  border: none;
+}
+.search-parent input:focus {
+  border: 2px solid rgb(4, 3, 3);
+}
+.search-parent i {
+  position: absolute;
+  right: 14px;
+  top: 12.5px;
+  color: rgb(186, 186, 186);
+}
+.nav-items {
+  display: flex;
+  gap: 10px;
+  /* text-decoration: none; */
+  list-style: none;
+}
+.nav-items,
+li,
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #707070;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  background-color: #feeae9;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  padding: 32px;
+  border-radius: 12px;
+  margin-top: 33px;
+}
+.banner img {
+  width: 402px;
+  height: 378px;
+}
+.banner-content h1 {
+  color: rgb(31, 31, 31);
+  font-size: 56px;
+  font-weight: bold;
+  /* line-height: 84px; */
+  text-align: left;
+}
+.banner-content p {
+  color: rgb(78, 78, 78);
+  max-width: 456px;
+}
+.banner-price {
+  font-weight: bold;
+  font-size: 48px;
+  color: rgb(255, 19, 111);
+  display: block;
+}
+
+/* catagories */
+.catagories {
+  max-width: 1000px;
+  margin: 64px auto;
+  margin-top: 45px;
+}
+.catagories-container {
+  display: flex;
+  gap: 26px;
+  justify-content: space-around;
+}
+
+.catagorie-card {
+  display: flex;
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.catagorie-card h2 {
+  color: white;
+  font-size: 31px;
+  font-weight: bold;
+}
+.catagorie-card-1 {
+  width: 500px;
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+}
+.catagorie-card-2 {
+  width: 500px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+}
+.catagorie-card-3 {
+  width: 500px;
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+}
+
+/* bag-shoes-section */
+.bag-shoes-section {
+  background: rgb(244, 244, 244);
+}
+.see-all {
+  display: flex;
+  justify-content: space-between;
+}
+.see-all p {
+  color: rgb(255, 157, 0);
+  cursor: pointer;
+}
+/* shoes style */
+.shoes-section {
+  padding: 24px;
+}
+.shoes-card img {
+  width: 280px;
+  height: 180px;
+}
+.shoes-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.shoes-card-price {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.shoes-card {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+}
+.shoes-card h2 {
+  font-size: 22px;
+}
+.shoes-card .btn-primary {
+  background: black;
+}
+
+/* bag style */
+.bag-card img {
+  height: 240px;
+}
+
+/* contact-us-section-parent */
+.contact-us-section-parent {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+.contact-us-section {
+  background: rgb(255, 242, 241);
+  padding: 34px;
+  border-radius: 12px;
+  height: 215px;
+}
+.contact-us-section input {
+  border: none;
+  padding: 18px;
+  width: 272px;
+  border-radius: 8px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.contact-us-section input:focus {
+  border: 3px solid rgb(0, 200, 255);
+}
+.contact-us-input {
+  display: flex;
+  justify-content: center;
+}
+.contact-us-input .btn-primary {
+  border-radius: 0 12px 12px 0;
+}
