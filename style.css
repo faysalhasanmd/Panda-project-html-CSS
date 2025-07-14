@@ -38,6 +38,36 @@ nav {
   justify-content: space-between;
   padding-top: 12px;
 }
+
+/* dropdown */
+.dropdown-parent {
+  position: relative;
+}
+.dropdown-child {
+  top: 30%;
+  position: absolute;
+  list-style: none;
+  width: 80px;
+  background-color: rgb(214, 239, 232);
+  color: black;
+  padding: 6px 2px;
+  text-align: center;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 1px 2px 5px rgb(90, 88, 88);
+  visibility: hidden;
+  margin-top: 9px;
+}
+.nav-items:hover .dropdown-child {
+  visibility: visible;
+  top: 100%;
+  transition: 0.3s;
+}
+
+.dropdown-child li {
+  margin: 4px;
+  color: black;
+}
+
 .search-parent {
   position: relative;
 }
@@ -62,6 +92,15 @@ nav {
   gap: 10px;
   /* text-decoration: none; */
   list-style: none;
+  font-size: 12px;
+}
+.nav-items a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.nav-items i {
+  color: rgb(187, 5, 219);
 }
 .nav-items,
 li,
@@ -195,7 +234,7 @@ a {
   border-radius: 10px;
   text-align: center;
   padding: 25px;
-  box-shadow: 3px 3px 10px rgb(108, 107, 107);
+  box-shadow: 0.5px 0.5px 6px rgb(108, 107, 107);
 }
 .shoes-card h2 {
   font-size: 22px;
