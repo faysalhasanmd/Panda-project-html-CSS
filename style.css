@@ -195,6 +195,7 @@ a {
   border-radius: 10px;
   text-align: center;
   padding: 25px;
+  box-shadow: 3px 3px 10px rgb(108, 107, 107);
 }
 .shoes-card h2 {
   font-size: 22px;
