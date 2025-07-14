@@ -28,7 +28,7 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -48,7 +48,7 @@ nav {
   position: absolute;
   list-style: none;
   width: 80px;
-  background-color: rgb(214, 239, 232);
+  background-color: rgb(170, 249, 225);
   color: black;
   padding: 6px 2px;
   text-align: center;
@@ -57,7 +57,7 @@ nav {
   visibility: hidden;
   margin-top: 9px;
 }
-.nav-items:hover .dropdown-child {
+.dropdown-parent:hover .dropdown-child {
   visibility: visible;
   top: 100%;
   transition: 0.3s;
